@@ -13,7 +13,7 @@ beginswith() { case $2 in "$1"*) true;; *) false;; esac; }
 source_local_shellrc() {
   local curr="$(pwd -P)"
   while beginswith "${LOCAL_SHELL_FILE_LIMIT}" "${curr}" && [ "${curr}" != "${LOCAL_SHELL_FILE_LIMIT}" ] && [ "${curr}" != "/" ]; do
-    [ -f "${curr}/${LOCAL_SHELL_FILE}" ] && . "${curr}/${LOCAL_SHELL_FILE}" && return
+    [ -f "${curr}/${LOCAL_SHELL_FILE}" ] && . "${curr}/${LOCAL_SHELL_FILE}"
     local curr="$(realpath "${curr}/..")"
   done
 }
