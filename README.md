@@ -1,8 +1,8 @@
 # local-shellrc
 
-Source shellrcs local to a directory.
+Source shellrcs (.local.sh) local to a directory.
 
-The main script should be POSIX compliant, so if you hook it up in a shell other than zsh, feel free to contribute :)
+The main script should be POSIX compliant, so if you hook it up to a shell other than zsh, feel free to contribute :)
 
 ## Usage
 
