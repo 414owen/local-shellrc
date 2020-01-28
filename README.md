@@ -13,7 +13,7 @@ Add [this line](https://github.com/414owen/dotfiles/blob/2789e45114881fb242724ab
 ### Other
 
 ```zsh
-git clone git@github.com:414owen/local-shellrc.git
+git clone https://github.com/414owen/local-shellrc.git
 echo ". $PWD/local-shellrc/source-local-shellrc.zsh" >> ~/.zshrc
 ```
 
