@@ -14,7 +14,7 @@ Add [this line](https://github.com/414owen/dotfiles/blob/2789e45114881fb242724ab
 
 ```zsh
 git clone git@github.com:414owen/local-shellrc.git
-echo '. <path/to/local-shellrc>/source-local-shellrc.zsh' >> ~/.zshrc
+echo ". $PWD/local-shellrc/source-local-shellrc.zsh" >> ~/.zshrc
 ```
 
 ## Usage
