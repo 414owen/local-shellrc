@@ -19,4 +19,4 @@ echo ". $PWD/local-shellrc/source-local-shellrc.zsh" >> ~/.zshrc
 
 ## Usage
 
-Your shell will load the closest `.local.sh` file in a direct parent directory of `$PWD`.
+Your shell will load the closest `.local.sh` file that's a direct child of a parent directory of `$PWD`.
