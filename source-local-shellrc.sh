@@ -1,5 +1,5 @@
 # ---
-# local-shellrc: Per-project shellrcs
+# local-shellrc: Per-project shell configs
 # Contribute at https://github.com/414owen/local-shellrc
 # ---
 
