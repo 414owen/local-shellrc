@@ -10,7 +10,7 @@ The main script should be POSIX compliant, so if you hook it up to a shell other
 
 Add [this line](https://github.com/414owen/dotfiles/blob/2789e45114881fb242724ab01107b4fcd44a40d5/zsh.nix#L14)
 
-### Other
+### Manual
 
 ```zsh
 git clone https://github.com/414owen/local-shellrc.git
